@@ -25,8 +25,8 @@ enum
 };
 
 // 定时，限制占空比的时间（用于上电多久之后，限制最大的占空比），单位：ms
-#define SCHEDULE_TIME_TO_LIMIT_PWM ((u32)1 * 60 * 60 * 1000)
-// #define SCHEDULE_TIME_TO_LIMIT_PWM ((u32)6 * 60 * 1000) // 6min，给客户测试用
+// #define SCHEDULE_TIME_TO_LIMIT_PWM ((u32)1 * 60 * 60 * 1000)
+#define SCHEDULE_TIME_TO_LIMIT_PWM ((u32)6 * 60 * 1000) // 6min，给客户测试用
 // #define SCHEDULE_TIME_TO_LIMIT_PWM ((u32)30 * 1000) // USER_TO_DO 测试时使用
 // 时间到来之后，要限制的最大占空比值
 #define SCHEDULE_TIME_TO_LIMIT_PWM_VAL ((u16)PWM_DUTY_80_PERCENT)
