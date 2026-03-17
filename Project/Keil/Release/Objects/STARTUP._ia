@@ -1,0 +1,1 @@
+"..\..\Libraries\Startup\STARTUP.A51" INCDIR(..\..\Libraries;..\..\Libraries\C51) SET (LARGE) DEBUG PRINT(.\Release\Listings\STARTUP.lst) OBJECT(.\Release\Objects\STARTUP.obj) EP
